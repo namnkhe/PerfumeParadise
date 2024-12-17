@@ -1,0 +1,195 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 30, 2023, 3:45:51 PM
+    Author     : DELL
+*/
+body{
+    cursor: url(../images/con-tro-hinh-anh.png), auto;
+}
+.logo{
+    border-radius: 30%;
+}
+header{
+    font-family: economica;
+    text-align: center;
+}
+footer{
+    background: #291204;
+    color:whitesmoke;
+    text-align: center;
+    line-height: 220%;
+    padding: 1.5%;
+    font-family: economica;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: economica;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 220%;
+}
+.login-button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+img:hover{
+    opacity: .7;
+}
+/*.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    gap: 10px;
+    margin: 4%;
+}*/
+
+.item a{
+    text-decoration: none;
+    color:#291204;
+}
+.item{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 130%;
+}
+.search form .row{
+    padding:3%;
+}
+.content h2{
+    text-align: center;
+}
+.card{
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+
+
+@media(max-width:767px){
+    .card{
+        margin: 3vh auto;
+    }
+}
+.cart{
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+@media(max-width:767px){
+    .cart{
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem;
+    }
+}
+.summary{
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+@media(max-width:767px){
+    .summary{
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem;
+    }
+}
+.summary .col-2{
+    padding: 0;
+}
+.summary .col-10
+{
+    padding: 0;
+}
+.row{
+    margin: 0;
+}
+.title b{
+    font-size: 1.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Giúp tính toán kích thước các phần tử chính xác hơn */
+}
+section, div {
+    margin-bottom: 0;
+}
+
+.main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+.col-2, .col{
+    padding: 0 1vh;
+}
+.close{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+
+.back-to-shop{
+    margin-top: 4.5rem;
+}
+h5{
+    margin-top: 4vh;
+}
+hr{
+    margin-top: 1.25rem;
+}
+form{
+    padding: 2vh 0;
+}
+select{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.btn{
+    border-color: #000;
+    font-size: 0.7rem;
+    border-radius: 5%;
+}
+.container-fluid {
+    max-width: 1200px; /* Đặt giới hạn chiều rộng cho trang, tránh bị kéo dài quá mức */
+    margin: 0 auto; /* Căn giữa toàn bộ nội dung trong khung */
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-md-5, .col-md-7 {
+    padding: 15px; /* Thêm padding để đảm bảo các cột không bị sát nhau */
+}
+
